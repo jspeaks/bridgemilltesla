@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bridgemill Tesla",
   description: "Bridgemill Tesla",
+  icons: {
+    icon: "/tesla-logo.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
