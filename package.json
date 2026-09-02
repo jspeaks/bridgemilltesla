@@ -1,6 +1,6 @@
 {
   "name": "bridgemilltesla",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Community hub, news source, and innovation sandbox for Tesla owners, enthusiasts, and investors in Bridgemill (Canton, GA).",
   "private": true,
   "scripts": {

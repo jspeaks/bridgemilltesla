@@ -75,3 +75,9 @@ This project strictly adheres to:
 2. **Semantic Versioning (SemVer)**: Increment `version` in `package.json` with every functional change and include it in the same commit.
 3. **Agent Rules**: Standardized under [`.agent/rules/conventions.md`](file:///.agent/rules/conventions.md) and [`AGENTS.md`](file:///AGENTS.md).
 
+---
+
+## 📋 Feature Backlog & Roadmap
+
+For full strategic roadmap, feature specifications, and community initiatives, see **[`BACKLOG.md`](file:///BACKLOG.md)**.
+
