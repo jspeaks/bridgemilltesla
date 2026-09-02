@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bridgemill Tesla (`bridgemilltesla.com`)
 
-## Getting Started
+> A community hub, news source, and innovation sandbox for Tesla owners, enthusiasts, and investors in the **Bridgemill** neighborhood and surrounding area of **Canton, Georgia**.
 
-First, run the development server:
+---
 
+## 📍 About the Project
+
+**Bridgemill** is a vibrant master-planned golf and lake community located in Canton (Cherokee County), GA. The neighborhood and surrounding area have a remarkably high concentration of Tesla vehicle owners, clean tech early adopters, and retail/institutional Tesla investors.
+
+**`bridgemilltesla.com`** was created to serve as a local anchor for all things Tesla in the Bridgemill community:
+- **Local Owner Network & Discussion**: A dedicated destination for neighborhood Tesla owners to connect, share experiences (charging setups, service tips, local routes), and organize meetups.
+- **Investor & Tech Hub**: A meeting ground for the many Tesla investors residing in Bridgemill to discuss company developments, FSD milestones, and earnings insights.
+- **Optimus & Next-Gen Robotics**: Dedicated coverage, stories, and practical local implications as Tesla's **Optimus** humanoid robot approaches commercial availability.
+- **Cybercab Neighborhood Fleet**: Exploration and planning around acquiring and operating a private fleet of autonomous **Tesla Cybercabs** within the Bridgemill neighborhood and nearby Canton transit corridors.
+
+---
+
+## 🚀 Current Status: Phase 1 (Foundation)
+
+The project is currently in its foundational stage:
+- [x] Secured domain name (**`bridgemilltesla.com`** & **`www.bridgemilltesla.com`**).
+- [x] Modern Next.js 16 (App Router) baseline with Tailwind CSS v4 and TypeScript.
+- [x] High-performance vector Tesla emblem asset integration & responsive layout.
+- [x] Continuous deployment pipeline via **GitHub** $\rightarrow$ **Vercel** Edge Network.
+- [x] Automated DNS routing via **Porkbun**.
+- [x] High-performance Google Analytics 4 integration via `@next/third-parties/google`.
+- [x] Multi-harness agent governance (`.agent/`, `AGENTS.md`) with Conventional Commits and automated Semantic Versioning.
+
+---
+
+## 🛠 Tech Stack & Architecture
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router, Turbopack)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons & Graphics**: Pure SVG vector assets
+- **Analytics**: [`@next/third-parties/google`](https://nextjs.org/docs/app/building-your-application/optimizing/third-parties#google-analytics) (GA4)
+- **Hosting & CI/CD**: [Vercel](https://vercel.com/) (Connected to GitHub `main` branch)
+- **DNS & Registrar**: [Porkbun](https://porkbun.com/)
+- **Multi-Agent Governance**: Compatible with Google Antigravity, OpenAI Codex, xAI Grok, and Claude Code
+
+---
+
+## 💻 Development
+
+### Prerequisites
+- Node.js `>= 18.0.0`
+- npm `>= 9.0.0`
+
+### Local Setup
 ```bash
+# Clone repository
+git clone https://github.com/jspeaks/bridgemilltesla.git
+cd bridgemilltesla
+
+# Install dependencies
+npm install
+
+# Configure environment variables (optional for local GA)
+cp .env.example .env.local
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Commit & Versioning Governance
 
-## Learn More
+This project strictly adheres to:
+1. **Conventional Commits**: Format commit messages as `feat:`, `fix:`, `style:`, `docs:`, `chore:`, `refactor:`, or `perf:`.
+2. **Semantic Versioning (SemVer)**: Increment `version` in `package.json` with every functional change and include it in the same commit.
+3. **Agent Rules**: Standardized under [`.agent/rules/conventions.md`](file:///.agent/rules/conventions.md) and [`AGENTS.md`](file:///AGENTS.md).
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
