@@ -1,4 +1,4 @@
-# Bridgemill Tesla (`bridgemilltesla.com`)
+# Bridgemill Tesla (`BridgemillTesla.com`)
 
 > A community hub, news source, and innovation sandbox for Tesla owners, enthusiasts, and investors in the **Bridgemill** neighborhood and surrounding area of **Canton, Georgia**.
 
@@ -8,7 +8,7 @@
 
 **Bridgemill** is a vibrant master-planned golf and lake community located in Canton (Cherokee County), GA. The neighborhood and surrounding area have a remarkably high concentration of Tesla vehicle owners, clean tech early adopters, and retail/institutional Tesla investors.
 
-**`bridgemilltesla.com`** was created to serve as a local anchor for all things Tesla in the Bridgemill community:
+**`BridgemillTesla.com`** was created to serve as a local anchor for all things Tesla in the Bridgemill community:
 - **Local Owner Network & Discussion**: A dedicated destination for neighborhood Tesla owners to connect, share experiences (charging setups, service tips, local routes), and organize meetups.
 - **Investor & Tech Hub**: A meeting ground for the many Tesla investors residing in Bridgemill to discuss company developments, FSD milestones, and earnings insights.
 - **Optimus & Next-Gen Robotics**: Dedicated coverage, stories, and practical local implications as Tesla's **Optimus** humanoid robot approaches commercial availability.
@@ -19,7 +19,7 @@
 ## 🚀 Current Status: Phase 1 (Foundation)
 
 The project is currently in its foundational stage:
-- [x] Secured domain name (**`bridgemilltesla.com`** & **`www.bridgemilltesla.com`**).
+- [x] Secured domain name (**`BridgemillTesla.com`** & **`www.BridgemillTesla.com`**).
 - [x] Modern Next.js 16 (App Router) baseline with Tailwind CSS v4 and TypeScript.
 - [x] High-performance vector Tesla emblem asset integration & responsive layout.
 - [x] Continuous deployment pipeline via **GitHub** $\rightarrow$ **Vercel** Edge Network.

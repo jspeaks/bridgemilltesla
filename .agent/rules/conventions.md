@@ -22,3 +22,6 @@ For every iteration, update, or code change on this project:
      - Minor bump (`0.1.0` -> `0.2.0`) for new features or notable additions.
      - Major bump (`0.1.0` -> `1.0.0`) for breaking changes or major releases.
    - Include the `package.json` version update within the same commit.
+
+3. **Domain Branding & Capitalization**:
+   - In all readable content, prose, documentation, and UI text, always capitalize the 'B' and 'T': `BridgemillTesla.com` (and `www.BridgemillTesla.com`).

@@ -18,3 +18,6 @@ For every iteration, update, or code change on this project:
 2. **Semantic Versioning**:
    - For every functional iteration, bump the version in `package.json` according to SemVer (`0.1.0` -> `0.1.1` for patch fixes/tweaks, `0.2.0` for features).
    - Include the `package.json` version update within the same commit.
+
+3. **Domain Branding & Capitalization**:
+   - In all readable content, prose, documentation, and UI text, always capitalize the 'B' and 'T': `BridgemillTesla.com` (and `www.BridgemillTesla.com`).
